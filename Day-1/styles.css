@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+
+.container{ 
+    min-width: 100vw;
+    min-height: 100vh;
+    background: rgb(28, 26, 26);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.color-container {
+    width: 25vw;
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    background: rgb(255, 255, 255);
+    border-radius: 2px;
+    font-size: 1.3rem;
+}
+
+.color-container button {
+    padding: .5rem;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    background-color: #363535;
+    color: #fff;
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+}
