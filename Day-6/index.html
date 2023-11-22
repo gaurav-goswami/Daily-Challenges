@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day-6 Todo App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <button class="todo-btn add-todo">Add Todo</button>
+        <button class="todo-btn active-todo-btn">Active</button>
+        <button class="todo-btn complete-btn">Completed</button>
+      </header>
+
+      <div class="todo-card-container">
+        <!-- <div class="todo-card">
+          <h3>Todo Heading</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Voluptatum, voluptas...
+          </p>
+          <button class="open-todo-btn">Open Todo</button>
+        </div> -->
+      </div>
+
+      <div class="todo-modal">
+        <div class="add-todo-modal">
+          <button class="close-todo-modal">X</button>
+          <form class="todo-form">
+            <input type="text" placeholder="Enter todo heading" />
+            <textarea
+              cols="30"
+              rows="10"
+              placeholder="Enter todo description"
+            ></textarea>
+            <button type="submit" class="create-todo">Create Todo</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="open-todo-modal">
+        <button class="close-todo-modal close-info-modal">X</button>
+        <div class="todo-info">
+          <h3 class="todo-heading"></h3>
+          <div class="todo-desc-container">
+            <p class="todo-desc"></p>
+          </div>
+          <button class="complete-todo">Mark as completed</button>
+          <button class="delete-todo">Delete Todo</button>
+        </div>
+      </div>
+
+      <div class="completed-todo-container">
+       
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
